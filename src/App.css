@@ -13,6 +13,26 @@
   }
 }
 
+.button-test {
+  width: 70px;
+  height: 70px;
+  border-radius: 1000px;
+  background-color: red;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+.button-test:hover {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 1000px;
+  background-color: rgb(252, 46, 46);
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
