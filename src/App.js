@@ -10,7 +10,8 @@ function App() {
           className="App-logo"
           alt="logo"
         />
-        <p>Ambiente de pruebas clon INFONAVIT sin GTAG</p>
+        <p>Ambiente de pruebas clon INFONAVIT con GTAG</p>
+        <div>ID DE GTAG:</div>
       </header>
     </div>
   );
