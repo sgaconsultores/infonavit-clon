@@ -2,10 +2,20 @@ import logo from "./logo.svg";
 import "./App.css";
 import { hotjar } from "react-hotjar";
 
-hotjar.initialize({ id: "4936466" });
+// hotjar.initialize({ id: "4936466" });
 function openSurvey() {
-  console.log("opening survey");
-  hotjar.event("INFONAVIT_CLICK");
+  // console.log("opening survey");
+  // hotjar.event("INFONAVIT_CLICK");
+  // console.log("opening survey");
+  // hotjar.event("INFONAVIT_CLICK");
+  window.hj =
+    window.hj ||
+    function () {
+      // eslint-disable-next-line no-undef
+      (hj.q = hj.q || []).push(arguments);
+    };
+  // eslint-disable-next-line no-undef
+  hj("event", "INFONAVIT_CLICK");
 }
 function App() {
   return (
